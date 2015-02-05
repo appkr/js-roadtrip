@@ -1,0 +1,1 @@
+Follow along [CodeSchool - JAVASCRIPT ROAD TRIP](https://www.codeschool.com/courses/javascript-road-trip-part-3), [CodeSchool - JAVASCRIPT BEST PRACTICES](https://www.codeschool.com/courses/javascript-best-practices)

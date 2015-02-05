@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <p>myObject: valueOf, constructor, toLocaleString, toString, isPrototypeOf, propertyIsEnumerable, hasOwnProperty</p>
+        <p>myString: length, concat(), toUpperCase(), toLowerCase(), charAt(), indexOf(), trim(), replace(), substring()</p>
+        <p>myArray: length, shift(), join(), pop(), reverse(), reduce(), push(), sort(), slice()</p>
+        <p>myNumber: toFixed(), toExponential(), toPrecision()</p>
+        <p>myFunction: name, call(), bind(), apply()</p>
+        <script>
+            String.prototype.countAll = function(letter) {
+                var letterCount = 0;
+
+                for (var i = 0, len = this.length; i < len; i++) {
+                    if (this.charAt(i).toUpperCase() == letter.toUpperCase()) {
+                        letterCount++;
+                    }
+                }
+
+                return letterCount;
+            };
+
+            var myObject = {key: "value"};
+            var myString = "Hello World";
+            var myArray = ["one", "two", "three"];
+            var myNumber = 1.2;
+            var myFunction = function() {return "Yeahi ~";}
+
+            console.log(myObject);
+            console.log(myString);
+            console.log(myArray);
+            console.log(myNumber);
+            console.log(myFunction);
+        </script>
+    </body>
+</html>
